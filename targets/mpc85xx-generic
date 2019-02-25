@@ -1,1 +1,5 @@
+if [ "$BROKEN" ]; then
+# BROKEN: bootloader does not fully read kernels > ~2.6M from flash
+# https://github.com/openwrt/openwrt/pull/1773h
 device tp-link-tl-wdr4900-v1 tl-wdr4900-v1
+fi
